@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutterpluginindicator (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutterpluginindicator (from `.symlinks/plugins/flutterpluginindicator/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutterpluginindicator:
+    :path: ".symlinks/plugins/flutterpluginindicator/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutterpluginindicator: 4e695c5b87eb352fcc319f85d8c56f2154df0fc4
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.8.3

@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:activity_indicator/activity_indicator.dart';
+import 'package:flutterpluginindicator/flutterpluginindicator.dart';
 
 void main() => runApp(MaterialApp(
   home: ActivityIndicatorExample(),
 ));
 
 class ActivityIndicatorExample extends StatelessWidget{
-  
+
   ActivityIndicatorController controller;
-  
+
   void _onActivityIndicatorControllerCreated(ActivityIndicatorController _controller){
     controller = _controller;
   }
-  
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -30,9 +30,9 @@ class ActivityIndicatorExample extends StatelessWidget{
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.red,
+                  color: Colors.white,
                   child: UIActivityIndicator(
-                    hexColor: "FFFFFF",
+                    hexColor: "FF0000",
                     onActivityIndicatorWidgetCreated: _onActivityIndicatorControllerCreated,
                   ),
                 ),
@@ -65,3 +65,4 @@ class ActivityIndicatorExample extends StatelessWidget{
   }
 
 }
+

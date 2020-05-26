@@ -1,10 +1,8 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-
 
 typedef void UIActivityIndicatorWidgetCreatedCallback(ActivityIndicatorController controller);
 
@@ -22,6 +20,8 @@ class ActivityIndicatorController {
     return _channel.invokeMethod('stop');
   }
 }
+
+
 
 class UIActivityIndicator extends StatefulWidget{
 
