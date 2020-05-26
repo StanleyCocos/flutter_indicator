@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # flutterpluginindicator
+=======
+
+>>>>>>> 4dd6a99667cea6fa75f68765498829608d8cbee1
 
 A new Flutter plugin.
 
